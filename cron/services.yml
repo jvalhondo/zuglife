@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  cron:
+    build: .
+    image: zuglife/cron
+    container_name: zuglife.cron
+    env_file:
+      - .env
+    restart: always

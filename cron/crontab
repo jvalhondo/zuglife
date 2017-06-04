@@ -1,0 +1,2 @@
+0 */1 * * * cd /cron; python src/ticker.py >> /var/log/cron.log 2>&1
+0 */2 * * * cd /cron; python src/stats.py >> /var/log/cron.log 2>&1
